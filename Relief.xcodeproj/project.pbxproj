@@ -13,6 +13,14 @@
 		8CBA00A3273A4B6300A8E44A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBA00A1273A4B6300A8E44A /* Main.storyboard */; };
 		8CBA00A5273A4B6400A8E44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CBA00A4273A4B6400A8E44A /* Assets.xcassets */; };
 		8CBA00A8273A4B6400A8E44A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBA00A6273A4B6400A8E44A /* LaunchScreen.storyboard */; };
+		8CBA00B4273A4BAA00A8E44A /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA00B0273A4BA900A8E44A /* Child.swift */; };
+		8CBA00B5273A4BAA00A8E44A /* OlderPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA00B1273A4BA900A8E44A /* OlderPeople.swift */; };
+		8CBA00B6273A4BAA00A8E44A /* Patientinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA00B2273A4BA900A8E44A /* Patientinfo.swift */; };
+		8CBA00B7273A4BAA00A8E44A /* HealthCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA00B3273A4BAA00A8E44A /* HealthCondition.swift */; };
+		8CBA00BA273A4BCA00A8E44A /* Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA00B9273A4BCA00A8E44A /* Ex.swift */; };
+		8CBA00BF273A4C4600A8E44A /* CommonDiseasesSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA00BC273A4C4500A8E44A /* CommonDiseasesSelectionViewController.swift */; };
+		8CBA00C0273A4C4600A8E44A /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA00BD273A4C4600A8E44A /* RegistrationViewController.swift */; };
+		8CBA00C1273A4C4600A8E44A /* CitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA00BE273A4C4600A8E44A /* CitySelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		8CBA00A4273A4B6400A8E44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CBA00A7273A4B6400A8E44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CBA00A9273A4B6400A8E44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CBA00B0273A4BA900A8E44A /* Child.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		8CBA00B1273A4BA900A8E44A /* OlderPeople.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OlderPeople.swift; sourceTree = "<group>"; };
+		8CBA00B2273A4BA900A8E44A /* Patientinfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patientinfo.swift; sourceTree = "<group>"; };
+		8CBA00B3273A4BAA00A8E44A /* HealthCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthCondition.swift; sourceTree = "<group>"; };
+		8CBA00B9273A4BCA00A8E44A /* Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ex.swift; sourceTree = "<group>"; };
+		8CBA00BC273A4C4500A8E44A /* CommonDiseasesSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonDiseasesSelectionViewController.swift; sourceTree = "<group>"; };
+		8CBA00BD273A4C4600A8E44A /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		8CBA00BE273A4C4600A8E44A /* CitySelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitySelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,9 @@
 		8CBA009A273A4B6300A8E44A /* Relief */ = {
 			isa = PBXGroup;
 			children = (
+				8CBA00BB273A4C3400A8E44A /* Controllers */,
+				8CBA00B8273A4BB800A8E44A /* extensions */,
+				8CBA00AF273A4B9600A8E44A /* Model */,
 				8CBA009B273A4B6300A8E44A /* AppDelegate.swift */,
 				8CBA009D273A4B6300A8E44A /* SceneDelegate.swift */,
 				8CBA009F273A4B6300A8E44A /* ViewController.swift */,
@@ -65,6 +84,35 @@
 				8CBA00A9273A4B6400A8E44A /* Info.plist */,
 			);
 			path = Relief;
+			sourceTree = "<group>";
+		};
+		8CBA00AF273A4B9600A8E44A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CBA00B0273A4BA900A8E44A /* Child.swift */,
+				8CBA00B3273A4BAA00A8E44A /* HealthCondition.swift */,
+				8CBA00B1273A4BA900A8E44A /* OlderPeople.swift */,
+				8CBA00B2273A4BA900A8E44A /* Patientinfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8CBA00B8273A4BB800A8E44A /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8CBA00B9273A4BCA00A8E44A /* Ex.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		8CBA00BB273A4C3400A8E44A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CBA00BE273A4C4600A8E44A /* CitySelectionViewController.swift */,
+				8CBA00BC273A4C4500A8E44A /* CommonDiseasesSelectionViewController.swift */,
+				8CBA00BD273A4C4600A8E44A /* RegistrationViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +186,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CBA00BA273A4BCA00A8E44A /* Ex.swift in Sources */,
 				8CBA00A0273A4B6300A8E44A /* ViewController.swift in Sources */,
+				8CBA00B6273A4BAA00A8E44A /* Patientinfo.swift in Sources */,
 				8CBA009C273A4B6300A8E44A /* AppDelegate.swift in Sources */,
+				8CBA00C0273A4C4600A8E44A /* RegistrationViewController.swift in Sources */,
+				8CBA00BF273A4C4600A8E44A /* CommonDiseasesSelectionViewController.swift in Sources */,
+				8CBA00C1273A4C4600A8E44A /* CitySelectionViewController.swift in Sources */,
+				8CBA00B4273A4BAA00A8E44A /* Child.swift in Sources */,
+				8CBA00B5273A4BAA00A8E44A /* OlderPeople.swift in Sources */,
+				8CBA00B7273A4BAA00A8E44A /* HealthCondition.swift in Sources */,
 				8CBA009E273A4B6300A8E44A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
