@@ -7,8 +7,24 @@
 
 import UIKit
 
-class CommonDiseasesSelectionViewController: UITableViewController {
-    override func viewDidLoad() {
+class CommonDiseasesSelectionViewController: UIViewController{
+    
+
+    
+    let oneSection = ["First"]
+
+    
+override func viewDidLoad() {
         super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
     }
+    
+    
+
+
+    
+    
 }
+
+        

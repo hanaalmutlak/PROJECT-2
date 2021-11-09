@@ -48,71 +48,6 @@
             </objects>
             <point key="canvasLocation" x="-505" y="925"/>
         </scene>
-        <!--Common Diseases Selection View Controller-->
-        <scene sceneID="mrz-9p-8zu">
-            <objects>
-                <tableViewController storyboardIdentifier="CommonDiseasesSelectionViewController" id="ZE5-57-MpL" customClass="CommonDiseasesSelectionViewController" customModule="Relief" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="ql8-M3-yNf">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Q8d-ox-SIU">
-                                <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="43.666667938232422"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Q8d-ox-SIU" id="Cou-sj-21X">
-                                    <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="ZE5-57-MpL" id="JbC-f7-Gfb"/>
-                            <outlet property="delegate" destination="ZE5-57-MpL" id="UTb-Ec-7sA"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Atp-Qa-hiK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-8623" y="-695"/>
-        </scene>
-        <!--City Selection View Controller-->
-        <scene sceneID="fYJ-db-Cw5">
-            <objects>
-                <tableViewController storyboardIdentifier="CitySelectionViewController" id="d5Q-Ov-VB6" customClass="CitySelectionViewController" customModule="Relief" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="eNb-qi-Nqm">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="sz7-qK-Apk">
-                                <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="43.666667938232422"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sz7-qK-Apk" id="f4O-Rd-W5w">
-                                    <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zsD-nS-Ztc">
-                                            <rect key="frame" x="138" y="11" width="42" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="d5Q-Ov-VB6" id="6Lz-8k-5xH"/>
-                            <outlet property="delegate" destination="d5Q-Ov-VB6" id="KD5-aP-5rB"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hRr-Ia-vrx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-6055.3846153846152" y="-676.06635071090045"/>
-        </scene>
         <!--Registration View Controller-->
         <scene sceneID="afw-Dv-9cU">
             <objects>
@@ -129,49 +64,53 @@
                                 <color key="highlightedColor" systemColor="systemPinkColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="8br-K2-Mmo" userLabel="titleBackground">
-                                <rect key="frame" x="52.666666666666657" y="50" width="285" height="177"/>
+                                <rect key="frame" x="52.666666666666657" y="50" width="285" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="EoJ-Yb-3vf"/>
+                                </constraints>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="9Sx-2e-PS3">
-                                <rect key="frame" x="20" y="247" width="350" height="543"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="9Sx-2e-PS3">
+                                <rect key="frame" x="20" y="150" width="350" height="640"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UserName.." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XmO-lI-X8O" userLabel="usernameTextField">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="60.333333333333336"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UserName.." textAlignment="natural" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="XmO-lI-X8O" userLabel="usernameTextField">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="66.666666666666671"/>
                                         <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Identification Number.." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TKW-0x-zJR" userLabel="idTextField">
-                                        <rect key="frame" x="0.0" y="80.333333333333314" width="350" height="60.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="71.666666666666657" width="350" height="66.666666666666657"/>
                                         <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
                                         <color key="tintColor" red="0.91980725529999996" green="0.07085682837" blue="0.013181203799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kC-8Q-kaW" userLabel="cityButton">
-                                        <rect key="frame" x="0.0" y="161" width="350" height="60.333333333333343"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Select City"/>
-                                        <connections>
-                                            <action selector="openCitySelection" destination="ppB-Il-DZM" eventType="touchUpInside" id="4po-je-bGV"/>
-                                        </connections>
-                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89D-gE-b7u">
+                                        <rect key="frame" x="0.0" y="143.33333333333331" width="350" height="66.666666666666686"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eu0-Jh-tGO">
+                                        <rect key="frame" x="0.0" y="215" width="350" height="67"/>
+                                    </pickerView>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mobile Number..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fqP-rG-PL0" userLabel="mobileNumberTextField">
-                                        <rect key="frame" x="0.0" y="241.33333333333334" width="350" height="60.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="286.66666666666669" width="350" height="66.666666666666686"/>
                                         <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXE-n9-E5H" userLabel="commonDiseasesButton">
-                                        <rect key="frame" x="0.0" y="321.66666666666663" width="350" height="60.333333333333314"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Select Common Diseases"/>
-                                        <connections>
-                                            <action selector="openCitySelection" destination="ppB-Il-DZM" eventType="touchUpInside" id="Px5-i8-AD0"/>
-                                            <action selector="openCommonDiseasesSelection" destination="ppB-Il-DZM" eventType="touchUpInside" id="0Tv-yc-FCB"/>
-                                        </connections>
-                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Common Diseases" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7y-Bw-XQb">
+                                        <rect key="frame" x="0.0" y="358.33333333333331" width="350" height="66.666666666666686"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V9c-qm-Bx8">
+                                        <rect key="frame" x="0.0" y="430" width="350" height="67"/>
+                                    </pickerView>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="wnn-HZ-4YO" userLabel="bloodTypeSegmentedControl">
-                                        <rect key="frame" x="0.0" y="402" width="350" height="61.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="501.66666666666669" width="350" height="67.666666666666686"/>
                                         <segments>
                                             <segment title="A+"/>
                                             <segment title="Second"/>
@@ -180,7 +119,7 @@
                                         </segments>
                                     </segmentedControl>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" role="primary" translatesAutoresizingMaskIntoConstraints="NO" id="i0F-ne-XVw" userLabel="registerButton">
-                                        <rect key="frame" x="0.0" y="482.66666666666657" width="350" height="60.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="573.33333333333337" width="350" height="66.666666666666629"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.left.2" catalog="system" title="Register" cornerStyle="large">
@@ -214,7 +153,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="fZm-P5-Smd"/>
                     <connections>
-                        <outlet property="cityButton" destination="1kC-8Q-kaW" id="9TS-YQ-UN9"/>
+                        <outlet property="citiesPickerView" destination="Eu0-Jh-tGO" id="lCR-0L-bI4"/>
+                        <outlet property="diseasesPickerView" destination="V9c-qm-Bx8" id="9WZ-6a-yat"/>
                         <segue destination="djf-rK-Bl1" kind="presentation" identifier="mainScreen" modalPresentationStyle="fullScreen" id="K3Y-0z-QXy"/>
                     </connections>
                 </viewController>

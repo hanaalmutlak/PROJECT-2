@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C44C3BB273A6EB5009271E3 /* CitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C3BA273A6EB5009271E3 /* CitySelectionViewController.swift */; };
 		8CBA009C273A4B6300A8E44A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA009B273A4B6300A8E44A /* AppDelegate.swift */; };
 		8CBA009E273A4B6300A8E44A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA009D273A4B6300A8E44A /* SceneDelegate.swift */; };
 		8CBA00A0273A4B6300A8E44A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA009F273A4B6300A8E44A /* ViewController.swift */; };
@@ -20,10 +21,10 @@
 		8CBA00BA273A4BCA00A8E44A /* Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA00B9273A4BCA00A8E44A /* Ex.swift */; };
 		8CBA00BF273A4C4600A8E44A /* CommonDiseasesSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA00BC273A4C4500A8E44A /* CommonDiseasesSelectionViewController.swift */; };
 		8CBA00C0273A4C4600A8E44A /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA00BD273A4C4600A8E44A /* RegistrationViewController.swift */; };
-		8CBA00C1273A4C4600A8E44A /* CitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA00BE273A4C4600A8E44A /* CitySelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C44C3BA273A6EB5009271E3 /* CitySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectionViewController.swift; sourceTree = "<group>"; };
 		8CBA0098273A4B6300A8E44A /* Relief.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relief.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBA009B273A4B6300A8E44A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CBA009D273A4B6300A8E44A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		8CBA00B9273A4BCA00A8E44A /* Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ex.swift; sourceTree = "<group>"; };
 		8CBA00BC273A4C4500A8E44A /* CommonDiseasesSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonDiseasesSelectionViewController.swift; sourceTree = "<group>"; };
 		8CBA00BD273A4C4600A8E44A /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
-		8CBA00BE273A4C4600A8E44A /* CitySelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitySelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +75,10 @@
 				8CBA00BB273A4C3400A8E44A /* Controllers */,
 				8CBA00B8273A4BB800A8E44A /* extensions */,
 				8CBA00AF273A4B9600A8E44A /* Model */,
-				8CBA009B273A4B6300A8E44A /* AppDelegate.swift */,
 				8CBA009D273A4B6300A8E44A /* SceneDelegate.swift */,
 				8CBA009F273A4B6300A8E44A /* ViewController.swift */,
 				8CBA00A1273A4B6300A8E44A /* Main.storyboard */,
+				8CBA009B273A4B6300A8E44A /* AppDelegate.swift */,
 				8CBA00A4273A4B6400A8E44A /* Assets.xcassets */,
 				8CBA00A6273A4B6400A8E44A /* LaunchScreen.storyboard */,
 				8CBA00A9273A4B6400A8E44A /* Info.plist */,
@@ -108,9 +108,9 @@
 		8CBA00BB273A4C3400A8E44A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8CBA00BE273A4C4600A8E44A /* CitySelectionViewController.swift */,
 				8CBA00BC273A4C4500A8E44A /* CommonDiseasesSelectionViewController.swift */,
 				8CBA00BD273A4C4600A8E44A /* RegistrationViewController.swift */,
+				8C44C3BA273A6EB5009271E3 /* CitySelectionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 				8CBA009C273A4B6300A8E44A /* AppDelegate.swift in Sources */,
 				8CBA00C0273A4C4600A8E44A /* RegistrationViewController.swift in Sources */,
 				8CBA00BF273A4C4600A8E44A /* CommonDiseasesSelectionViewController.swift in Sources */,
-				8CBA00C1273A4C4600A8E44A /* CitySelectionViewController.swift in Sources */,
+				8C44C3BB273A6EB5009271E3 /* CitySelectionViewController.swift in Sources */,
 				8CBA00B4273A4BAA00A8E44A /* Child.swift in Sources */,
 				8CBA00B5273A4BAA00A8E44A /* OlderPeople.swift in Sources */,
 				8CBA00B7273A4BAA00A8E44A /* HealthCondition.swift in Sources */,
