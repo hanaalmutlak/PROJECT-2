@@ -14,7 +14,7 @@ struct Patientinfo {
     var City: Cities
     var location: String?
     var fatherPhonenumber : String
-    var  bloodtype : String
+    var bloodtype : String
 
 
 }

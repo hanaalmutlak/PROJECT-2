@@ -73,44 +73,75 @@
                                 <rect key="frame" x="20" y="150" width="350" height="640"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UserName.." textAlignment="natural" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="XmO-lI-X8O" userLabel="usernameTextField">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="66.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="87"/>
                                         <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Identification Number.." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TKW-0x-zJR" userLabel="idTextField">
-                                        <rect key="frame" x="0.0" y="71.666666666666657" width="350" height="66.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="92" width="350" height="87.333333333333314"/>
                                         <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
                                         <color key="tintColor" red="0.91980725529999996" green="0.07085682837" blue="0.013181203799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89D-gE-b7u">
-                                        <rect key="frame" x="0.0" y="143.33333333333331" width="350" height="66.666666666666686"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eu0-Jh-tGO">
-                                        <rect key="frame" x="0.0" y="215" width="350" height="67"/>
-                                    </pickerView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K6D-dH-cKf">
+                                        <rect key="frame" x="0.0" y="184.33333333333331" width="350" height="87"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89D-gE-b7u">
+                                                <rect key="frame" x="20" y="33.333333333333371" width="82.333333333333329" height="20.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <pickerView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eu0-Jh-tGO">
+                                                <rect key="frame" x="20" y="0.0" width="310" height="87"/>
+                                            </pickerView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Eu0-Jh-tGO" firstAttribute="leading" secondItem="89D-gE-b7u" secondAttribute="trailing" id="Cz2-ID-mDD"/>
+                                            <constraint firstItem="89D-gE-b7u" firstAttribute="leading" secondItem="K6D-dH-cKf" secondAttribute="leading" constant="20" id="N85-r9-k5K"/>
+                                            <constraint firstItem="89D-gE-b7u" firstAttribute="centerY" secondItem="K6D-dH-cKf" secondAttribute="centerY" id="T1V-RL-MvF"/>
+                                            <constraint firstItem="Eu0-Jh-tGO" firstAttribute="top" secondItem="K6D-dH-cKf" secondAttribute="top" id="WyS-p7-6rp"/>
+                                            <constraint firstAttribute="bottom" secondItem="Eu0-Jh-tGO" secondAttribute="bottom" id="d30-bp-o01"/>
+                                            <constraint firstAttribute="trailing" secondItem="Eu0-Jh-tGO" secondAttribute="trailing" id="fmK-wH-hIc"/>
+                                        </constraints>
+                                    </view>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mobile Number..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fqP-rG-PL0" userLabel="mobileNumberTextField">
-                                        <rect key="frame" x="0.0" y="286.66666666666669" width="350" height="66.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="276.33333333333331" width="350" height="87.333333333333314"/>
                                         <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Common Diseases" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7y-Bw-XQb">
-                                        <rect key="frame" x="0.0" y="358.33333333333331" width="350" height="66.666666666666686"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V9c-qm-Bx8">
-                                        <rect key="frame" x="0.0" y="430" width="350" height="67"/>
-                                    </pickerView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="16d-ry-UeG">
+                                        <rect key="frame" x="0.0" y="368.66666666666663" width="350" height="87"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Common Diseases" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7y-Bw-XQb">
+                                                <rect key="frame" x="0.0" y="34.333333333333371" width="150" height="18"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="gkV-9c-Zn1"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V9c-qm-Bx8">
+                                                <rect key="frame" x="135" y="0.0" width="215" height="87"/>
+                                            </pickerView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="I7y-Bw-XQb" firstAttribute="leading" secondItem="16d-ry-UeG" secondAttribute="leading" id="Ekf-db-juO"/>
+                                            <constraint firstItem="I7y-Bw-XQb" firstAttribute="centerY" secondItem="16d-ry-UeG" secondAttribute="centerY" id="GFW-lF-JgZ"/>
+                                            <constraint firstItem="V9c-qm-Bx8" firstAttribute="leading" secondItem="I7y-Bw-XQb" secondAttribute="trailing" constant="-15" id="LMT-Po-gaC"/>
+                                            <constraint firstAttribute="bottom" secondItem="V9c-qm-Bx8" secondAttribute="bottom" id="deg-iQ-4FM"/>
+                                            <constraint firstAttribute="trailing" secondItem="V9c-qm-Bx8" secondAttribute="trailing" id="heN-w9-ieD"/>
+                                            <constraint firstItem="V9c-qm-Bx8" firstAttribute="top" secondItem="16d-ry-UeG" secondAttribute="top" id="oi5-JQ-Qlx"/>
+                                        </constraints>
+                                    </view>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="wnn-HZ-4YO" userLabel="bloodTypeSegmentedControl">
-                                        <rect key="frame" x="0.0" y="501.66666666666669" width="350" height="67.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="460.66666666666663" width="350" height="88.333333333333371"/>
                                         <segments>
                                             <segment title="A+"/>
                                             <segment title="Second"/>
@@ -119,7 +150,7 @@
                                         </segments>
                                     </segmentedControl>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" role="primary" translatesAutoresizingMaskIntoConstraints="NO" id="i0F-ne-XVw" userLabel="registerButton">
-                                        <rect key="frame" x="0.0" y="573.33333333333337" width="350" height="66.666666666666629"/>
+                                        <rect key="frame" x="0.0" y="553" width="350" height="87"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.left.2" catalog="system" title="Register" cornerStyle="large">
@@ -153,8 +184,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="fZm-P5-Smd"/>
                     <connections>
+                        <outlet property="bloodTypePicker" destination="wnn-HZ-4YO" id="NJB-Bd-edp"/>
                         <outlet property="citiesPickerView" destination="Eu0-Jh-tGO" id="lCR-0L-bI4"/>
                         <outlet property="diseasesPickerView" destination="V9c-qm-Bx8" id="9WZ-6a-yat"/>
+                        <outlet property="idTextField" destination="TKW-0x-zJR" id="943-fG-zFy"/>
+                        <outlet property="mobileNumberTextField" destination="fqP-rG-PL0" id="KfT-bg-sNB"/>
+                        <outlet property="registerButton" destination="i0F-ne-XVw" id="6U4-05-29A"/>
+                        <outlet property="usernameTextField" destination="XmO-lI-X8O" id="X6O-6x-1V3"/>
                         <segue destination="djf-rK-Bl1" kind="presentation" identifier="mainScreen" modalPresentationStyle="fullScreen" id="K3Y-0z-QXy"/>
                     </connections>
                 </viewController>

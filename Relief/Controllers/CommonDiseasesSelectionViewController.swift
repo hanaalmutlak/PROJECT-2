@@ -10,8 +10,7 @@ import UIKit
 class CommonDiseasesSelectionViewController: UIViewController{
     
 
-    
-    let oneSection = ["First"]
+
 
     
 override func viewDidLoad() {

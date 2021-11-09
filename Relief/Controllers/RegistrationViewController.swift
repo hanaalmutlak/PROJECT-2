@@ -11,10 +11,18 @@ class RegistrationViewController: UIViewController , UIPickerViewDataSource, UIP
 
     
     
+    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var idTextField: UITextField!
+    @IBOutlet weak var mobileNumberTextField: UITextField!
+    @IBOutlet weak var bloodTypePicker: UISegmentedControl!
+    @IBOutlet weak var registerButton: UIButton!
     
-    let PathologicalCase = ["Diabetes","pressure","theHeat","clots","KidneyDialysis","Disability","ShortnessOfBreath","asthma","Suffocation"," Spasm","Fever"]
+    let pathologicalCase = ["Diabetes","pressure","theHeat","clots","KidneyDialysis","Disability","ShortnessOfBreath","asthma","Suffocation"," Spasm","Fever"]
     
-    let citiesVisited = ["Abha","Riyadh","Makkah","Tabuk","Jeddah","Khobar"]
+    let cities = ["Abha","Riyadh","Makkah","Tabuk","Jeddah","Khobar"]
+    
+    var selectedCity: Int = 0
+    var selectedCommonDisease: Int = 0
     
     @IBOutlet weak var citiesPickerView: UIPickerView!
     
@@ -38,18 +46,27 @@ class RegistrationViewController: UIViewController , UIPickerViewDataSource, UIP
     }
     
     @IBAction func login(_ sender: Any) {
-        
-        
-        performSegue(withIdentifier: "mainScreen", sender: nil)
-        
-        
+        if validiateForm() {
+            print("username", usernameTextField.text!)
+            print("id", idTextField.text!)
+            print("city", cities[selectedCity])
+            print("disease", pathologicalCase[selectedCommonDisease])
+            print("bloodType", bloodTypePicker.selectedSegmentIndex)
+            performSegue(withIdentifier: "mainScreen", sender: nil)
+        }
     }
     
-    @IBAction func openCitySelection() {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let citySelectionViewController = storyboard.instantiateViewController(withIdentifier: "CitySelectionViewController") as! CitySelectionViewController
-        self.present(citySelectionViewController, animated: true, completion: nil)
-        // Present it w/o any adjustments so it uses the default sheet presentation.
+    func validiateForm() -> Bool {
+        if usernameTextField.text!.isEmpty {
+            return false
+        }
+        if idTextField.text!.isEmpty {
+            return false
+        }
+        if mobileNumberTextField.text!.isEmpty {
+            return false
+        }
+        return true
     }
     
     @IBAction func openCommonDiseasesSelection() {
@@ -68,27 +85,27 @@ class RegistrationViewController: UIViewController , UIPickerViewDataSource, UIP
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         
         if pickerView == citiesPickerView {
-            return citiesVisited.count
+            return cities.count
+        } else {
+            return pathologicalCase.count
         }
-        
-        else if pickerView == diseasesPickerView {
-            return PathologicalCase.count
-        }
-        
-        return 0
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         
         if pickerView == citiesPickerView {
-            return citiesVisited[row]
+            return cities[row]
+        } else {
+            return pathologicalCase[row]
         }
-        
-        else if pickerView == diseasesPickerView {
-            return PathologicalCase[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        if pickerView == citiesPickerView {
+            selectedCity = row
+        } else {
+            selectedCommonDisease = row
         }
-        
-        return ""
     }
     
 }
