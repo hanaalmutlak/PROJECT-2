@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C44C3BD273AEC76009271E3 /* PatientInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C3BC273AEC76009271E3 /* PatientInformationViewController.swift */; };
 		8CBA009C273A4B6300A8E44A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA009B273A4B6300A8E44A /* AppDelegate.swift */; };
 		8CBA009E273A4B6300A8E44A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA009D273A4B6300A8E44A /* SceneDelegate.swift */; };
 		8CBA00A0273A4B6300A8E44A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA009F273A4B6300A8E44A /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C44C3BC273AEC76009271E3 /* PatientInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientInformationViewController.swift; sourceTree = "<group>"; };
 		8CBA0098273A4B6300A8E44A /* Relief.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relief.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBA009B273A4B6300A8E44A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CBA009D273A4B6300A8E44A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				8CBA00BC273A4C4500A8E44A /* CommonDiseasesSelectionViewController.swift */,
 				8CBA00BD273A4C4600A8E44A /* RegistrationViewController.swift */,
+				8C44C3BC273AEC76009271E3 /* PatientInformationViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				8CBA00BF273A4C4600A8E44A /* CommonDiseasesSelectionViewController.swift in Sources */,
 				8CBA00B4273A4BAA00A8E44A /* Child.swift in Sources */,
 				8CBA00B5273A4BAA00A8E44A /* OlderPeople.swift in Sources */,
+				8C44C3BD273AEC76009271E3 /* PatientInformationViewController.swift in Sources */,
 				8CBA00B7273A4BAA00A8E44A /* HealthCondition.swift in Sources */,
 				8CBA009E273A4B6300A8E44A /* SceneDelegate.swift in Sources */,
 			);

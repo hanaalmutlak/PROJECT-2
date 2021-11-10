@@ -9,21 +9,17 @@ import UIKit
 
 class CommonDiseasesSelectionViewController: UIViewController{
     
-
-
-
-    
-override func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
     
-
-
+    
+    
     
     
 }
 
-        
+
