@@ -26,6 +26,8 @@
 /* Begin PBXFileReference section */
 		8C44C3BC273AEC76009271E3 /* PatientInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientInformationViewController.swift; sourceTree = "<group>"; };
 		8C44C3BE273BF195009271E3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		8C44C3C6273FF9B4009271E3 /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/Main.strings"; sourceTree = "<group>"; };
+		8C44C3C7273FF9B4009271E3 /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		8CBA0098273A4B6300A8E44A /* Relief.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relief.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBA009B273A4B6300A8E44A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CBA009D273A4B6300A8E44A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"ar-SA",
 			);
 			mainGroup = 8CBA008F273A4B6300A8E44A;
 			productRefGroup = 8CBA0099273A4B6300A8E44A /* Products */;
@@ -207,6 +210,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8CBA00A2273A4B6300A8E44A /* Base */,
+				8C44C3C6273FF9B4009271E3 /* ar-SA */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -215,6 +219,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8CBA00A7273A4B6400A8E44A /* Base */,
+				8C44C3C7273FF9B4009271E3 /* ar-SA */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -287,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -345,7 +352,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M9AP67F2SC;
+				DEVELOPMENT_TEAM = G58BH98Q5G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Relief/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -373,7 +380,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M9AP67F2SC;
+				DEVELOPMENT_TEAM = G58BH98Q5G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Relief/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

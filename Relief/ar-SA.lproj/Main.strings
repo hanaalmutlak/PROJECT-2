@@ -1,0 +1,136 @@
+
+/* Class = "UILabel"; text = "Emergency Contact 2"; ObjectID = "00p-KL-xF3"; */
+"00p-KL-xF3.text" = " 2 جهة اتصال الطوارئ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "09O-Fz-ITQ"; */
+"09O-Fz-ITQ.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4ht-lq-2l4"; */
+"4ht-lq-2l4.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7Ls-oT-zje"; */
+"7Ls-oT-zje.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Mobile Number..."; ObjectID = "AWO-MF-1di"; */
+"AWO-MF-1di.placeholder" = "رقم الجوال";
+
+/* Class = "UIButton"; configuration.title = "call"; ObjectID = "BKT-nC-qIa"; */
+"BKT-nC-qIa.configuration.title" = "التثقيف الصحي";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BKT-nC-qIa"; */
+"BKT-nC-qIa.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "EA1-kl-AU9"; */
+"EA1-kl-AU9.text" = "جده";
+
+/* Class = "UITabBarItem"; title = "choose"; ObjectID = "Esz-OF-LtM"; */
+"Esz-OF-LtM.title" = "اختيار";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Frw-L0-JlR"; */
+"Frw-L0-JlR.text" = "ابها";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "HbP-Ll-11x"; */
+"HbP-Ll-11x.text" = "الخبر";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "NQC-VV-ssi"; */
+"NQC-VV-ssi.placeholder" = "رقم الجوال";
+
+/* Class = "UIButton"; configuration.title = "call"; ObjectID = "No3-vV-ktW"; */
+"No3-vV-ktW.configuration.title" = "طلب الاسعاف";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "No3-vV-ktW"; */
+"No3-vV-ktW.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "call"; ObjectID = "OpA-5b-3L9"; */
+"OpA-5b-3L9.configuration.title" = "الاسعافات الاوليه";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "OpA-5b-3L9"; */
+"OpA-5b-3L9.normalTitle" = "Button";
+
+/* Class = "UISegmentedControl"; P8c-Sb-7Rc.segmentTitles[0] = "A+"; ObjectID = "P8c-Sb-7Rc"; */
+"P8c-Sb-7Rc.segmentTitles[0]" = "A+";
+
+/* Class = "UISegmentedControl"; P8c-Sb-7Rc.segmentTitles[1] = "B+"; ObjectID = "P8c-Sb-7Rc"; */
+"P8c-Sb-7Rc.segmentTitles[1]" = "B+";
+
+/* Class = "UISegmentedControl"; P8c-Sb-7Rc.segmentTitles[2] = "O-"; ObjectID = "P8c-Sb-7Rc"; */
+"P8c-Sb-7Rc.segmentTitles[2]" = "O-";
+
+/* Class = "UISegmentedControl"; P8c-Sb-7Rc.segmentTitles[3] = "AB"; ObjectID = "P8c-Sb-7Rc"; */
+"P8c-Sb-7Rc.segmentTitles[3]" = "AB";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "R2i-uV-KTZ"; */
+"R2i-uV-KTZ.text" = "مكه";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SGl-nt-nct"; */
+"SGl-nt-nct.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Register"; ObjectID = "YcB-VU-Bb7"; */
+"YcB-VU-Bb7.configuration.title" = "تسجيل";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YcB-VU-Bb7"; */
+"YcB-VU-Bb7.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "RELIEF"; ObjectID = "b1J-Uu-XqS"; */
+"b1J-Uu-XqS.text" = "غوث";
+
+/* Class = "UITextField"; placeholder = "Full Name"; ObjectID = "cBS-Dy-Mqh"; */
+"cBS-Dy-Mqh.placeholder" = "الاسم الكامل";
+
+/* Class = "UILabel"; text = "Age:"; ObjectID = "cZW-HC-wQ4"; */
+"cZW-HC-wQ4.text" = "العمر:";
+
+/* Class = "UILabel"; text = "Emergency Contact 1"; ObjectID = "dJa-S2-rgV"; */
+"dJa-S2-rgV.text" = "جهة اتصال الطوارئ 1";
+
+/* Class = "UITabBarItem"; title = "Patient Information"; ObjectID = "eVL-ly-eeH"; */
+"eVL-ly-eeH.title" = "معلومات المريض";
+
+/* Class = "UIButton"; configuration.title = "Select Common Diseases"; ObjectID = "edH-96-Fra"; */
+"edH-96-Fra.configuration.title" = "حدد الامراض الموجوده";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "edH-96-Fra"; */
+"edH-96-Fra.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fgj-86-t8I"; */
+"fgj-86-t8I.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Blood Type"; ObjectID = "jka-54-Q5m"; */
+"jka-54-Q5m.text" = "فصيلة الدم";
+
+/* Class = "UITextField"; placeholder = "Identification Number.."; ObjectID = "jsF-bt-Evb"; */
+"jsF-bt-Evb.placeholder" = "رقم الهويه";
+
+/* Class = "UITabBarItem"; title = "Setting"; ObjectID = "k9b-ya-coq"; */
+"k9b-ya-coq.title" = "الأعدادات";
+
+/* Class = "UITextField"; placeholder = "Full Name"; ObjectID = "li7-st-0bS"; */
+"li7-st-0bS.placeholder" = "الاسم الكامل";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mSF-CV-KbJ"; */
+"mSF-CV-KbJ.text" = "تبوك";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "p47-Vq-6Zg"; */
+"p47-Vq-6Zg.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Log Out"; ObjectID = "s1I-mO-JLG"; */
+"s1I-mO-JLG.configuration.title" = "تسجيل الخروج";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "s1I-mO-JLG"; */
+"s1I-mO-JLG.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Select City"; ObjectID = "sUc-it-ZoT"; */
+"sUc-it-ZoT.configuration.title" = "المدينة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sUc-it-ZoT"; */
+"sUc-it-ZoT.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "uxq-QT-FVs"; */
+"uxq-QT-FVs.placeholder" = "رقم الجوال";
+
+/* Class = "UITextField"; placeholder = "Full Name"; ObjectID = "veE-ZR-hae"; */
+"veE-ZR-hae.placeholder" = "الاسم كامل";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wiU-lg-oBl"; */
+"wiU-lg-oBl.text" = "الرياض";
+

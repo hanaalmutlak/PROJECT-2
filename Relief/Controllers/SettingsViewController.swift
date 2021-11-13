@@ -22,4 +22,7 @@ class SettingsViewController: UIViewController {
         // - seague to register view controller
     }
     
+    @IBAction func changeLanguage(_ sender: Any) {
+        UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!)
+    }
 }
