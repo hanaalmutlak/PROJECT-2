@@ -101,7 +101,7 @@ class RegistrationViewController: UIViewController {
     
     func saveUser() {
         self.user.name = usernameTextField.text!
-        self.user.nationalId = Int(idTextField.text!)!
+        self.user.nationalId = Int(idTextField.text ?? "0") ?? 0
         self.user.mobileNumber = Int(mobileNumberTextField.text!)!
         self.user.bloodType = bloodTypes[bloodTypePicker.selectedSegmentIndex]
         self.user.age = Int(ageSlider.value)

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8C44C3BD273AEC76009271E3 /* PatientInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C3BC273AEC76009271E3 /* PatientInformationViewController.swift */; };
-		8C44C3BF273BF195009271E3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8C44C3BE273BF195009271E3 /* Settings.bundle */; };
+		8C769B612741167300CAC73C /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8C769B602741167300CAC73C /* Settings.bundle */; };
 		8CBA009C273A4B6300A8E44A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA009B273A4B6300A8E44A /* AppDelegate.swift */; };
 		8CBA009E273A4B6300A8E44A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA009D273A4B6300A8E44A /* SceneDelegate.swift */; };
 		8CBA00A0273A4B6300A8E44A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA009F273A4B6300A8E44A /* ViewController.swift */; };
@@ -25,9 +25,9 @@
 
 /* Begin PBXFileReference section */
 		8C44C3BC273AEC76009271E3 /* PatientInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientInformationViewController.swift; sourceTree = "<group>"; };
-		8C44C3BE273BF195009271E3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		8C44C3C6273FF9B4009271E3 /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/Main.strings"; sourceTree = "<group>"; };
 		8C44C3C7273FF9B4009271E3 /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		8C769B602741167300CAC73C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../../../Desktop/copy/Relief/Relief/Settings.bundle; sourceTree = "<group>"; };
 		8CBA0098273A4B6300A8E44A /* Relief.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relief.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBA009B273A4B6300A8E44A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CBA009D273A4B6300A8E44A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 				8CBA00A4273A4B6400A8E44A /* Assets.xcassets */,
 				8CBA00A6273A4B6400A8E44A /* LaunchScreen.storyboard */,
 				8CBA00A9273A4B6400A8E44A /* Info.plist */,
-				8C44C3BE273BF195009271E3 /* Settings.bundle */,
+				8C769B602741167300CAC73C /* Settings.bundle */,
 			);
 			path = Relief;
 			sourceTree = "<group>";
@@ -176,7 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C44C3BF273BF195009271E3 /* Settings.bundle in Resources */,
+				8C769B612741167300CAC73C /* Settings.bundle in Resources */,
 				8CBA00A8273A4B6400A8E44A /* LaunchScreen.storyboard in Resources */,
 				8CBA00A5273A4B6400A8E44A /* Assets.xcassets in Resources */,
 				8CBA00A3273A4B6300A8E44A /* Main.storyboard in Resources */,
@@ -365,7 +365,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Relief.Relief;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanaMutlaq.Relief;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -393,7 +393,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Relief.Relief;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanaMutlaq.Relief;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
